@@ -1,0 +1,39 @@
+body, html{
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+input{
+    background-color: teal;
+    border: none;
+    text-align: right;
+    color: white;
+    font-size: 25px;
+}
+
+select{
+    font-size: 25px;
+}
